@@ -1,0 +1,75 @@
+<html>
+	<head>
+			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<link rel="stylesheet" href="css/bootstrap-extend.css">
+			<link rel="stylesheet" href="css/master_style.css">
+	</head>
+	<body class="hold-transition dark bg-img" style="background-image: url(../new/images/bg7.jpg)">
+	
+	<div class="auth-2-outer row align-items-center h-p100 m-0">
+		<div class="auth-2">
+		  <!--<div class="auth-logo font-size-30">
+			<b>SPACEROL</b>
+			</div>
+			<div class="auth-logo font-size-12">
+				<b>Tu Vida Virtual</b>
+			</div>-->
+			<div class="auth-logo">
+			<center><img src="../new/images/pulido.png" height="170px" width="263px"></center>
+			</div>
+			<!--img src="https://i.imgur.com/io4Vspk.png" height="130px" width="350px"-->
+		  <!-- /.login-logo -->
+		  <div class="auth-body">
+			<p class="auth-msg" style="margin-bottom:80px;">Registrese para Continuar</p>
+
+			<form class="form-element">
+			  <div class="form-group has-feedback">
+				<input type="text" class="form-control" placeholder="Primer Nombre" id="firstname">
+				<span class="ion ion-person form-control-feedback "></span>
+			  </div>
+			  <div class="form-group has-feedback">
+				<input type="text" class="form-control" placeholder="Apellido" id="lastname">
+				<span class="ion ion-person form-control-feedback "></span>
+			  </div>
+			  <div class="form-group has-feedback">
+				<input type="text" class="form-control" placeholder="Fecha de Nacimiento (DD/MM/AAAA)" id="dateofbirth">
+				<span class="ion ion-locked form-control-feedback "></span>
+			  </div>
+			  <div class="form-group has-feedback">
+				<input type="text" class="form-control" placeholder="Altura (140-200 cm)" id="height">
+				<span class="ion ion-log-in form-control-feedback "></span>
+			  </div>
+			  <div class="row">
+				<div class="col-12">
+				  <div class="checkbox">
+					<input type="checkbox" id="sex1"  value="M">
+					<label for="sex1">Hombre</label> &nbsp;&nbsp;&nbsp;
+					<input type="checkbox" id="sex2" value="F">
+					<label for="sex2">Mujer</label>
+				  </div>
+				</div>
+				<!-- /.col -->
+				<div class="col-12 text-center">
+				  <button type="submit" class="btn btn-block mt-10 btn-success">Registrarse</button>
+				</div>
+				<!-- /.col -->
+			  </div>
+			</form>
+			</div>
+			<div class="auth-logo font-size-20">
+					<center><h2>Entra a nuestro Discord</h2></center>
+					<div class="discordbox">
+								<center><!--http://discord.gg/--><a href="http://discord.gg/">discord.gg/SPRP</a></center>
+			</div>
+		</div>
+	
+	</div>
+	<script src="js/script.js"></script>
+	<script>
+		$('input[type="checkbox"]').on('change', function() {
+	 	$('input[type="checkbox"]').not(this).prop('checked', false);
+		});
+	</script>
+
+</body>
+</html>
