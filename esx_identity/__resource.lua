@@ -24,6 +24,11 @@ files({
   'html/new/images/bg1.jpg',
   'html/new/images/bg2.jpg',
   'html/new/images/bg3.jpg',
+  'html/new/images/bg4.jpg',
+  'html/new/images/bg5.jpg',
+  'html/new/images/bg6.jpg',
+  'html/new/images/bg7.jpg',
+  'html/new/images/pulido.jpg',
   'html/new/js/jquery-3.3.1.js',
 })
 
